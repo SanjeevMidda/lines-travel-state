@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 2s;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.line {
+  width: 20px;
+  height: 40%;
+  border-radius: 20px;
+  background-color: blue;
+  transform: rotate(-90deg);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face {
+  width: 5px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+}
